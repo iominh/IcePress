@@ -1,6 +1,9 @@
 /* Colors */
 $main-color: red;
 
+$noise-bg: image-url('noise.png') top left !default;
+$img-border: inline-image('dotted-border.png') !default;
+
 $white: #fff;
 $light-gray: #dfdfdf;
 $light-light-gray: #f8f8f8;

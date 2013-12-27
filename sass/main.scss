@@ -1,7 +1,12 @@
+@import "compass";
+@include global-reset;
+
 @import "bourbon/bourbon";
 @import "typography";
 @import "variables";
 @import "responsive";
+@import "base";
+@import "partials";
 
 *::selection {
 	background: $main-color;
