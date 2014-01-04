@@ -9,18 +9,15 @@
 @import "partials";
 
 *::selection {
-	background: $main-color;
-	color: $white;
-	}
+
+}
 
 *::-moz-selection {
-	background: $main-color;
-	color: $white;
+
 	}
 
 *::-webkit-selection {
-	background: $main-color;
-	color: $white;
+
 	}
 	
 body {
