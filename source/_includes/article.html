@@ -5,7 +5,7 @@
 		<time>{{ page.date | date: "%B %d %Y" }}</time>
 	</header>
 		<div class="content">
-			{{ content }}
+			{{ content | excerpt }}
 		</div>
 	<footer>
 		{% include post/categories.html %}
