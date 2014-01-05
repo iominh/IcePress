@@ -1,25 +1,22 @@
-*Note: This project is not actively maintained, but open to any pull requests*
-
 # A simple responsive Octopress theme
 
-There isn't a very wide choice of Octopress themes out there, so I decided
-to make my own. It's inspired heavily by Simon Foster's blog
-(http://simonfosterdesign.com/blog/), relying mostly on typography (all
-typographical elements are stored as variables for simple customization).
+IcePress is a responsive Octopress theme that was forked from PageTurner,
+a theme created by Elise Hein and Karl Sutt, which unfortunately is not under active development.
+This team builds on PageTurner to improve upon its syntax highlighter, excerpt support, and
+fixes various issues.
 
-The theme makes use of bourbon for SASS mixins, lettering.js for typography,
-and prettify.js and zclip.js for displaying code blocks.
+It is currently under active development. See the live demo for more information.
 
 ## Demo
 
-See http://fivetonine.eu
+See http://icepress.minh.io
 
 ## Install
 
 From your Octopress root directory:
 
-	# git clone https://github.com/elisehein/Pageturner.git .themes/Pageturner
-	# rake install['Pageturner']
+	# git clone https://github.com/minhongrails/IcePress.git .themes/IcePress
+	# rake install['IcePress']
 	# rake generate
 
 ## About
