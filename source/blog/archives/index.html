@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All posts
+title: Blog Archive
 footer: false
 ---
 
@@ -8,6 +8,7 @@ footer: false
 {% for post in site.posts reverse %}
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+
 
 {% unless year == this_year %}
   {% assign year = this_year %}
